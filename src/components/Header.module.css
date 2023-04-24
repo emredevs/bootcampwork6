@@ -1,0 +1,15 @@
+.header{
+  background-image: url("../../public/img/header-bg1.jpg");
+  background-size: cover;
+  background-position: center center;
+  height:280px;
+  padding-top: 7%;
+  border-radius: 10px;
+}
+h1{
+  position: absolute;
+  left: 5%;
+  top: 130px;
+  color: white;
+ 
+}

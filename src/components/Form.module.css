@@ -1,0 +1,26 @@
+
+.formInput{
+    width: 20%;
+    height: 35px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    text-align: left;
+    margin-top: 17px;
+    padding: 5px;
+
+}
+.formButton{
+    width: 5%;
+    padding: 7px;
+    font-size: large;
+    margin-left: 10px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: #914CFA;
+
+}
+.formButton:hover{
+    cursor: pointer;}

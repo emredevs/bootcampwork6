@@ -1,0 +1,38 @@
+
+.ulList{
+ list-style-type: none;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+flex-wrap: wrap;
+gap: 2%;
+}
+
+.ulList li{
+    margin: 5px;
+    overflow: hidden;
+    width: 25%;
+    height: 360px;
+    border-radius: 15px;
+    border: 2px solid cadetblue;
+    background-color: #FADA76;  
+}
+
+.ulList li img{
+ margin-top: 15px;
+ border-radius: 10px;
+  width: 140px;
+  height: 200px;
+}
+.home{
+  margin-top: 10px;
+  padding: 3%;
+  width: 40%;
+  background-color: #914CFA;
+  border-radius: 10px;
+}
+.NavLink{
+  color: white;
+}

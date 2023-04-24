@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    border: 2px solid cadetblue;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 2%;
+    gap: 5%;
+}
+.info{text-align: left;}
+.home{
+    margin-top: 15px;
+    padding: 5%;
+    background-color: #914CFA;
+    border-radius: 10px;
+    
+  }
+  .NavLink{
+    color: white;
+  }
