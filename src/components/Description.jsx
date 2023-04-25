@@ -24,10 +24,18 @@ export default function Description() {
       </div>
       <div className={styles.info}>
         <h4>Başlık: {book.volumeInfo.title}</h4>
-        <p>Yazar: {book.volumeInfo.authors}</p>
-        <p>Uzunluk: {book.volumeInfo.pageCount} Sayfa</p>
-        <p>Tür: {book.volumeInfo.categories}</p>
-        <p>Yayın Tarihi: {book.volumeInfo.publishedDate}</p>
+        <p>
+          <h5>Yazar: {book.volumeInfo.authors}</h5>
+        </p>
+        <p>
+          <h5>Uzunluk: {book.volumeInfo.pageCount} Sayfa</h5>
+        </p>
+        <p>
+          <h5>Tür: {book.volumeInfo.categories}</h5>
+        </p>
+        <p>
+          <h5>Yayın Tarihi: {book.volumeInfo.publishedDate}</h5>
+        </p>
         <p>Açıklama: {book.volumeInfo.description}</p>
 
         <a href={book.volumeInfo.infoLink} target="_blank" rel="noreferrer">
