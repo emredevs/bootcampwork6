@@ -4,7 +4,7 @@ import BooksContext from "../context/BooksContext";
 import styles from "./Form.module.css";
 export default function Form() {
   const { book, setBook, books, setBooks } = useContext(BooksContext);
-
+  //form submit olduğunda API dan verilerin çekilmesi
   const formSubmit = (e) => {
     e.preventDefault();
 
@@ -13,7 +13,7 @@ export default function Form() {
       .then((res) => setBooks(res.data.items));
     setBook("");
   };
-
+  // sahya ilk yüklendiğinde otomatik olarak yüklenen kitaplar
   useEffect(() => {
     axios
       .get(`https://www.googleapis.com/books/v1/volumes?q=${book}&lang=tr`)

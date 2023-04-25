@@ -6,7 +6,7 @@ export default function Description() {
   const { id } = useParams();
   const { books } = useContext(BooksContext);
   const book = books.find((book) => book.id === id);
-
+  // detay sayfasında bulunması gereken verilerin API dan çekilerek listelenmesi
   if (!book) {
     return <div>Book not found.</div>;
   }

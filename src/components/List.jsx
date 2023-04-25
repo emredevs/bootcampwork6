@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import BooksContext from "../context/BooksContext";
 import styles from "./List.module.css";
 import { NavLink } from "react-router-dom";
-
+// API dan aldığımız verilerin listelenmesi
 export default function List() {
   const { books } = useContext(BooksContext);
   return (
